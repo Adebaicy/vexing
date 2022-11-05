@@ -1,0 +1,213 @@
+#twitter{
+  
+text-align: center;
+font-weight: bolder;
+margin-top: 2%;
+margin-bottom: 3%;
+  
+}
+
+.hor{
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#social{
+  display:flex;
+justify-content: center;
+gap: 2%;
+margin-top: 2%;
+margin-bottom: 8%;
+}
+.cir {
+  float:right;
+  width:200px;
+  position: relative;
+  bottom:-50px;
+  
+  height: 90px;
+  background-image: url("./img/share.jpg");
+  
+  background-position: center;
+ background-repeat: no-repeat;
+}
+.cir:focus
+{
+  background-image: url("./img/focm.png");
+}
+
+ .cir:disabled
+{
+  background-image: url("./img/dism.png");
+}
+.cir:active
+{
+  background-image: url("./img/pressm.png");
+}
+.cir img{
+  opacity: 0;
+}
+/*#profile_img
+{background: linear-gradient(0deg, rgba(52, 64, 84, 0.75), rgba(52, 64, 84, 0.75)),url("./img/profile__img.png");
+border-radius:275px;
+background-repeat: no-repeat;}
+*/
+#profile_img img{
+  opacity: 0;
+}
+#profile_img{
+  clear: right;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  background-image: url("./img/profile__img.png");
+  display: flex;
+  
+  
+  justify-content: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#profile_img:hover {
+  background-image: url("./img/hoverpix.png");
+}
+#profile_img:focus {
+  background-image: url("./img/focus.png");
+}
+.pr{
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+small{
+  color: #667085;}
+button {
+  background-color: #EAECF0;
+  outline: none;
+  border: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  width: 80%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color:black;
+}
+button:hover{
+  background: #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+button:focus{
+  background: #EAECF0;
+  /* Gray/400 */
+  
+  border: 1px solid #98A2B3;
+  /* Shadow/xs focused 4px primary-100 */
+  
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #EBE9FE;
+  border-radius: 8px;
+}
+button:disabled{
+  background: #FCFCFD;
+  /* Gray/100 */
+  
+  border: 1px solid #F2F4F7;
+  /* Shadow/xs */
+  
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  }
+
+
+.footer{
+    
+  display: flex;
+  flex-direction: column;
+  
+  gap: 30px;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: auto;
+}
+@media only screen and (min-width:900px) {
+  .footer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/*
+  .cir img:not(:first-child){
+    display: inline;
+    float: right;
+    padding-top: 5%;
+    position: relative;
+    bottom: -20px;
+    padding-right: 10%;
+  }
+  .cir img:first-child{
+    display: none;
+  }
+  */
+
+  #profile_img:hover {
+    background-image: url("./img/hoverpix.png");
+  }
+  #profile_img:focus {
+    background-image: url("./img/focus.png");
+  }
+  
+
+  .cir {
+    float:right;
+    width:200px;
+    position: relative;
+    bottom:-50px;
+    left: -80px;
+    height: 90px;
+    background-image: url("./img/defs.png");
+    
+    background-position: right;
+   background-repeat: no-repeat;
+  }
+  .cir:hover
+  {
+    background-image: url("./img/hovershr.png");
+    background-position: right;
+  }
+  
+  .cir:disabled
+  {
+    background-image: url("./img/diss.png");
+  }
+  .cir:focus
+  {
+    background-image: url("./img/focs.png");
+  }
+  .cir img{
+    opacity: 0;
+  }
+  
+  }
+
