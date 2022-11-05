@@ -80,7 +80,7 @@ const Contact = () => {
           </div>
 
           <br />
-          <button type="submit" id="sendit">
+          <button type="submit" id="btn__submit">
             Send message
           </button>
         </form>
