@@ -191,7 +191,7 @@ function Oldq() {
         <br />
         <Design />
         <br/>
-        <Link to="/contact">Contact Me</Link>
+        <Link className="free" to="/contact">Contact Me</Link>
       </div>
       
 
