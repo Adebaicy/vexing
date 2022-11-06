@@ -61,7 +61,7 @@ const Contact = () => {
             <textarea
               required
               className="form-control"
-              id=" message"
+              id="message"
               placeholder="Send me a message and I'll reply as soon as possible..."
             ></textarea>
             <div className="valid-feedback">Please, enter a message</div>
